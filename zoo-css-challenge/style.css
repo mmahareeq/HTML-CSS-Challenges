@@ -65,7 +65,10 @@ button {
   border: 2px solid black;
   color: #fff;
 }
-
+.news h2 
+{
+  text-align: center;
+}
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -91,11 +94,12 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  position: fixed;
+  
   bottom: 20px;
   right: 20px;
-
+  
   display: flex;
+  position: fixed;
   justify-content: center;
   align-content: center;
   flex-direction: column;
@@ -163,11 +167,14 @@ footer {
   background-color: white;
   padding: 20px;
   margin: 10px;
-  width: 30%;
+  width: 25%;
   border: 1px solid black;
   border-radius: 10px;
 }
-
+.cd1
+{
+  margin-left: 60px;
+}
 .card h4 {
   margin-bottom: 1em;
 }
@@ -192,26 +199,45 @@ footer {
   background-size: cover;
   background-position: center;
   padding: 100px 5%;
+  border-radius: 2em;
 }
 
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 2em;
 }
 
 .education-container h3,
 .education-container p {
   margin-bottom: 1em;
 }
-
+.education button
+{
+  font-size: 20px;
+}
+.education button:focus
+{
+  background-color: red;
+}
+.education button:hover
+{
+  background-color:#ff3f00;
+}
 /*Membership*/
 
 .membership {
   text-align: center;
   background-color: #fffffc;
 }
+.membership p 
+{
+  max-width: 700px;
+  text-align: center;
+  margin-left: 20%;
 
+}
 .membership h2 {
   color: #ff3f00;
 }
@@ -221,7 +247,43 @@ footer {
 }
 
 /*Programs*/
-
+.programs h2
+{
+  text-align: center;
+}
 .programs .card {
-  display: block;
+  display: inline-flex;
+  width: 28%;
+}
+
+/* new section */
+.animal1
+{
+   display:flex;
+   flex-direction: column;
+   margin: 20px;
+}
+.animal1 span
+{
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+.favorite-an h2
+{
+  text-align: center;
+  font-size: 30px;
+}
+.favorite-an img
+{
+  border-radius: 50%;
+  width:200px ;
+  height: 200px;
+}
+.an-1
+{
+  display:flex;
+  flex-direction: row;
+
 }
