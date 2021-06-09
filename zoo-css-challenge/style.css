@@ -180,9 +180,10 @@ footer {
   
 }
 .card {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   width: 25%;
   border: 1px solid black;
