@@ -1,29 +1,28 @@
 * {
   font-family: sans-serif;
 }
-
-header {
+body{
+  margin: 0;
+  padding: 0;
+}
+.header-zoo {
   background-color: #211a1d;
   color: #ffffff;
   width: 100%;
-  padding: 20px;
+  display:flex;
+  justify-content: space-around;
+}
+.list{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
+.list li 
+{
+  margin: 15px;
 }
-
-header ul {
-  margin: 20px 0 0 0;
-  padding: 0;
-}
-
-header ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
 section {
   padding: 5%;
   background-color: #f8f0fb;
@@ -118,7 +117,20 @@ footer {
   vertical-align: top;
   border: 5px solid #747c92;
 }
-
+.bears h2{
+  text-align: center;
+}
+.image-container
+{
+  display: flex;
+  justify-content: center;
+}
+.image-container img 
+{
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+}
 
 #bear1
 {
@@ -161,6 +173,11 @@ footer {
 .news h2
 {
   text-align: center;
+}
+.news-div
+{
+  display: flex;
+  
 }
 .card {
   display: inline-block;
@@ -226,7 +243,10 @@ footer {
   background-color:#ff3f00;
 }
 /*Membership*/
-
+.programs-div
+{
+  display: flex;
+}
 .membership {
   text-align: center;
   background-color: #fffffc;
